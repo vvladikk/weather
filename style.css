@@ -1,0 +1,17 @@
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  input[type="text"] {
+    padding: 5px;
+  }
+  .weather-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .weather-card h2 {
+    text-align: center;
+  }

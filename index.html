@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Прогноз погоди</h1>
+  <form id="weatherForm">
+    <input type="text" id="cityInput" placeholder="Введіть назву міста">
+    <button type="submit">Отримати погоду</button>
+  </form>
+  <div class="weather-card" id="weatherCard">
+    <h2>Місто:<span id="cityName">Довільне місто</span></h2>
+    <p>Температура:<span id="temperature">-</span> °C</p>
+    <p>Стан неба:<span id="weatherDescription">-</span></p>
+    <p>Швидкість вітру:<span id="windSpeed">-</span> км/год</p>
+    <p>Вологість:<span id="humidity">-</span>%</p>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
